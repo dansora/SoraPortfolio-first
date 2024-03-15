@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.header {
+  display: inline-flexbox;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  background-color:  rgb(139, 139, 255);
+  color: white;
+}
+
+.nav-item {
+  display: inline-flexbox;
+  text-align: right;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+li {
+display: inline-block;
+justify-content: end;
+margin-inline: 2rem;
+color: white;
+list-style-type: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover, li a:focus {
+  text-decoration: underline;
+}
+
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px;
+}*/
+
+.hero h2 {
+  float: left;
+  padding-left: 2rem;
+}
+
+.page-section h2 {
+  color: aliceblue;
+  padding-left: 5px;
+  
+}
+
+.about-block {
+  display: block;
+  float: left;
+  font-size: medium;
+  margin-left: 10px;
+  border: #b4abab solid;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../images/dan_sora.jpg);
+  background-size: cover;
+  margin-right: 2rem;
+}
+
+.work-block {
+  display: block;
+  float: left;
+  font-size: medium;
+  margin-left: 10px;
+  border: #b4abab solid;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-size: cover;
+  margin-right: 2rem;
+}
+
+.cards {
+  display: table-row;
+  margin-right: 10px;
+  border: #b4abab;
+  color: rgb(139, 139, 255);
+}
+
+.card1 {
+background-image: url(../images/02-portfolio-1.jpg);
+background-position: center;
+background-size: cover;
+width: 200px;
+height: 200px;
+}
+
+.card2 {
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  }
+
+.card3 {
+  background-image: url(../images/02-portfolio-3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  }
+
+.contact-block {
+  display: block;
+  float: left;
+  font-size: medium;
+  margin-left: 10px;
+  border: #b4abab solid;
+  width: 30vw;
+  height: 30vw;
+  background: rgb(139, 139, 255);
+  margin-right: 2rem;
+  color: aliceblue;
+  }
+
+p {
+  margin: 0;
+}
+
+.hero-banner {
+height: 200px;
+width: 100%;
+margin-bottom: 10px;
+background-image: url(../images/02-hero-bg.jpg);
+background-size: cover ;
+background-position: center;
+}
+
+.hero {
+  height: 200px;
+  width: 100%;
+  color: rgb(139, 139, 255);
+}
+
+main {
+  display: grid;
+}
+
+.page-wrapper {
+display: grid;
+}
+
+.page-section {
+  border: rgb(139, 139, 255) solid;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+#about {
+  display: flexbox;
+}
+
+#work {
+display: flexbox;
+}
+
+#contact {
+display: flexbox;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: rgb(139, 139, 255);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.social {
+  padding: 1rem;
+  background-color: rgb(139, 139, 255);
+  margin-bottom: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(139, 139, 255);
+  text-align: center;
+  height: 3rem;
+}
+
+#backToTopBtn {
+  position: fixed; /* this will fix the butto to position */
+  bottom: 20px; /* position from bottom */
+  right: 30px; /* position from right */
+  
+  z-index: 99; /* it's above all the other elements */
+  text-decoration: none; /* no text decoration */
+  padding: 10px 20px; /* centered content */
+  border-radius: 10px; /* rounded corners */
+  background-color: rgb(139, 139, 255);
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (resolution: high-resolution) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+
