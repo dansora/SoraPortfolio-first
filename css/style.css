@@ -266,7 +266,6 @@ img:hover {
   position: fixed; /* this will fix the butto to position */
   bottom: 20px; /* position from bottom */
   right: 30px; /* position from right */
-  
   z-index: 99; /* it's above all the other elements */
   text-decoration: none; /* no text decoration */
   padding: 10px 20px; /* centered content */
@@ -274,6 +273,11 @@ img:hover {
   background-color: rgb(139, 139, 255);
   color: #fff;
   cursor: pointer;
+}
+
+#backToTopBtn:hover {
+  transform: scale(1.09); /* Slight zoom effect on hover */
+  cursor: pointer; /* Optional: Change cursor to indicate interactivity */
 }
 
 @media (max-width: 768px) {
