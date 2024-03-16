@@ -99,6 +99,11 @@ h6 {
   text-align: center;
 }
 
+h3 a, h3:hover {
+  text-decoration: none;
+  color: wheat;
+}
+
 .card1 {
 background-image: url(../images/02-portfolio-1.jpg);
 background-position: center;
