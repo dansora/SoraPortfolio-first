@@ -60,7 +60,7 @@ h6 {
 }
 
 .page-section h2 {
-  color: aliceblue;
+  color: rgb(139, 139, 255);
   padding-left: 5px;
   
 }
@@ -95,7 +95,8 @@ h6 {
   display: table-row;
   margin-right: 10px;
   border: #b4abab;
-  color: rgb(139, 139, 255);
+  color: aliceblue;
+  text-align: center;
 }
 
 .card1 {
@@ -106,12 +107,24 @@ width: 200px;
 height: 200px;
 }
 
+.card1:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02); /* Slight zoom effect on hover */
+  cursor: pointer; /* Optional: Change cursor to indicate interactivity */
+}
+
 .card2 {
   background-image: url(../images/02-portfolio-2.jpg);
   background-position: center;
   background-size: cover;
   width: 200px;
   height: 200px;
+  }
+
+  .card2:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    cursor: pointer; /* Optional: Change cursor to indicate interactivity */
   }
 
 .card3 {
@@ -122,6 +135,12 @@ height: 200px;
   height: 200px;
   }
 
+  .card3:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    cursor: pointer; /* Optional: Change cursor to indicate interactivity */
+  }
+
 .contact-block {
   display: block;
   float: left;
@@ -130,9 +149,9 @@ height: 200px;
   border: #b4abab solid;
   width: 30vw;
   height: 30vw;
-  background: rgb(139, 139, 255);
+  background-image: url(../images/02-portfolio-4.jpg);
+  background-position: center;
   margin-right: 2rem;
-  color: aliceblue;
   }
 
 p {
@@ -173,11 +192,11 @@ display: grid;
 }
 
 #work {
-display: flexbox;
+  display: flexbox;
 }
 
 #contact {
-display: flexbox;
+  display: flexbox;
 }
 
 form {
@@ -225,6 +244,11 @@ button:hover {
   margin-bottom: 2rem;
   color: #fff;
   text-align: center;
+}
+
+img {
+  height: 2rem;
+  width: 2rem;
 }
 
 .footer {
