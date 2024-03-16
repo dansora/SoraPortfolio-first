@@ -71,6 +71,7 @@ h6 {
   font-size: medium;
   margin-left: 10px;
   border: #b4abab solid;
+  border-radius: 5px;
   width: 30vw;
   height: 30vw;
   background-image: url(../images/dan_sora.jpg);
@@ -84,6 +85,7 @@ h6 {
   font-size: medium;
   margin-left: 10px;
   border: #b4abab solid;
+  border-radius: 5px;
   width: 30vw;
   height: 30vw;
   background-image: url(../images/02-portfolio-2.jpg);
@@ -152,6 +154,7 @@ height: 200px;
   font-size: medium;
   margin-left: 10px;
   border: #b4abab solid;
+  border-radius: 5px;
   width: 30vw;
   height: 30vw;
   background-image: url(../images/02-portfolio-4.jpg);
@@ -188,6 +191,7 @@ display: grid;
 
 .page-section {
   border: rgb(139, 139, 255) solid;
+  border-radius: 5px;
   padding: 1rem;
   margin-bottom: 10px;
 }
